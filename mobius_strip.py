@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import dblquad, quad
 
+""" defining class name with Mobius Strip """
 class MobiusStrip:
     def __init__(self, R=1, w=1, n=100):
         """Initialing radius R, width w, and resolution n"""
